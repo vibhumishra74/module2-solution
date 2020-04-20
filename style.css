@@ -1,0 +1,127 @@
+body{ border: 2px solid #000;
+       background-color: white;
+       margin: 0;
+
+}
+nav{ width: 100%;
+    height: 60px;
+    background-color: #c1c1c1;
+    padding: 15px;
+    border-bottom: 2px solid #000;
+
+}
+
+
+
+#span{ border: 2px solid #000;
+         background-color: white;   margin: 5px;  
+         width: 85%;
+         display: inline-flex;
+         box-sizing: border-box;
+}
+
+
+
+.text-center{text-align: center;
+    background-color: #c1c1c1;}
+h1{ text-align: center;
+ 
+}
+#iteam{ display: flex;
+  
+    justify-content: space-around;
+    justify-items: stretch;    
+
+
+}
+
+.section-wrapper{ display: inline-block;
+    width: 30%;
+    text-align: center;
+    border: 2px solid #000;  
+    justify-content: space-around;
+    background-color: #999999;
+    margin-bottom: 10%;
+    text-justify: auto;
+    font-size: 16px;
+}
+#chicken{ border: 2px solid #000;
+          margin-left: 65%;
+          font-size: large;
+       box-sizing: border-box;
+       font-size: 20px;
+       font-weight: 700;
+       padding-right:20px ;
+       padding-left: 20px;
+       
+          background-color: #d59898;
+}
+
+#beef{  border: 2px solid #000;
+    margin-left: 74.5%;
+    font-size: large;
+ box-sizing: border-box;
+ font-size: 20px;
+ font-weight: 700;
+ padding-right:20px ;
+ padding-left: 20px;
+  color: white;
+    background-color: #c14543;
+
+}
+#sushi{  border: 2px solid #000;
+    margin-left: 72%;
+    font-size: large;
+ box-sizing: border-box;
+ font-size: 20px;
+ font-weight: 700;
+ padding-right:20px ;
+ padding-left: 20px; 
+ 
+    background-color: #e5d198;
+ 
+}
+footer{ background-color: #c1c1c1;
+    border: 2px solid #000;
+    border-bottom: none;
+
+}
+/* tablet view*/
+@media screen (max-width:991px) and (min-width:768px){
+  color: white;
+
+ #iteam > section-wrapper > .tab{  
+
+    color: white;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width:768px){
+    
+
+}
